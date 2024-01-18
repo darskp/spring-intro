@@ -13,6 +13,9 @@ public class App {
 		ApplicationContext context = new ClassPathXmlApplicationContext("com/dk/demo/collectionTypeDI/config1.xml");
 		emp e1 = (emp) context.getBean("emp1",emp.class);
 		System.out.println(e1);
+		
+		emp e2 = (emp) context.getBean("emp2",emp.class);
+		System.out.println(e2);
 
 		System.out.println("END");
 	}

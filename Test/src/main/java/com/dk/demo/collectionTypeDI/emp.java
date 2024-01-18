@@ -11,7 +11,7 @@ public class emp {
 	
 	public emp() {
 		super();
-		// TODO Auto-generated constructor stub
+		
 	}
 
 	@Override

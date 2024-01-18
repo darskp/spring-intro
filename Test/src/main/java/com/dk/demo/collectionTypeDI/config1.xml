@@ -32,10 +32,33 @@
 				<entry key="Darshan3" value="K3" />
 			</map>
 		</property>
-
-
-
-
 	</bean>
+	
+	<bean class="com.dk.demo.collectionTypeDI.emp" name="emp2">
+    <property name="vehicle">
+        <list>
+            <value>Audi</value>
+            <value>Toyota</value>
+            <value>Ford</value>
+            <value>Honda</value>
+        </list>
+    </property>
+    <property name="email">
+        <set>
+            <value>Audi@gmail.com</value>
+            <value>Toyota@gmail.com</value>
+            <value>Ford@gmail.com</value>
+            <value>Honda@gmail.com</value>
+        </set>
+    </property>
+    <property name="name">
+        <map>
+            <entry key="D1" value="J1" />
+            <entry key="D2" value="J2" />
+            <entry key="D3" value="J3" />
+        </map>
+    </property>
+</bean>
+	
 </beans>
 
