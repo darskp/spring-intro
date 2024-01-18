@@ -23,6 +23,7 @@ public class App
        
        Student c=(Student) context.getBean("student3");
        System.out.println(c);
+       System.out.println(context.getBean("student3"));
         System.out.println( "END" );
     }
 }

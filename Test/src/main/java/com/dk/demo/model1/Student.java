@@ -8,7 +8,6 @@ private double marks;
 
 public Student() {
 	super();
-	// TODO Auto-generated constructor stub
 }
 public int getUsn() {
 	return usn;
