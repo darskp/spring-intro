@@ -17,6 +17,8 @@ public class App
        System.out.println(b);
        A a= (A)context.getBean("refA",A.class);
        System.out.println(a);
+       A a1= (A)context.getBean("refA2",A.class);
+       System.out.println(a1);
         System.out.println( "END" );
     }
 }

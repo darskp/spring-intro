@@ -3,28 +3,24 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xmlns:context="http://www.springframework.org/schema/context"
 	xmlns:p="http://www.springframework.org/schema/p"
-
+	xmlns:c="http://www.springframework.org/schema/c"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans
 	https://www.springframework.org/schema/beans/spring-beans.xsd
 	http://www.springframework.org/schema/context
 	https://www.springframework.org/schema/beans/spring-beans.context">
 
-	<bean class="com.dk.demo.referenceTypeDI.B" name="refB">
-		<property name="y">
-			<value>1000</value>
-		</property>
+	<bean class="com.dk.demo.constructorDI.Emp" name="emp1">
+		<constructor-arg name="eName">
+			<value>Darshan</value>
+		</constructor-arg>
+		<constructor-arg name="eId">
+			<value>10</value>
+		</constructor-arg>
+		<constructor-arg name="eSal">
+			<value>15000.00</value>
+		</constructor-arg>
 	</bean>
-
-	<bean class="com.dk.demo.referenceTypeDI.A" name="refA">
-		<property name="x">
-			<value>2000</value>
-		</property>
-		<property name="b">
-			<ref bean="refB" />
-		</property>
-	</bean>
-	
-	<bean class="com.dk.demo.referenceTypeDI.A" name="refA2" p:x="3000" p:b-ref="refB"/>
-
+	<bean class="com.dk.demo.constructorDI.Emp" name="emp2"
+		c:eName="Darshan2" c:eId="12" c:eSal="12000.00" />
 </beans>
 
