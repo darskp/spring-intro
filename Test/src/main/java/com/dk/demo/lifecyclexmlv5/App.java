@@ -14,3 +14,13 @@ public class App {
 		System.out.println("---Main END---");
 	}
 }
+
+
+// output
+
+//---Main START---
+//---Property Assigned---
+//---Property has been Initialized by calling init()---
+//Exam [examName=Mathematics, examDuration=1.5]
+//---Main END---
+//---Property has been Destroyed by calling destroy()---
