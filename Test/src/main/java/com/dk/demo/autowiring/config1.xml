@@ -21,8 +21,14 @@
 	<bean class="com.dk.demo.autowiring.Emp" name="emp1" autowire="byType"/>
 	 -->
 	 
-	 
+	  <!-- 
+	Type 2- by name
 	  <bean class="com.dk.demo.autowiring.Dept" name="deptbyType" p:deptName="CSE" p:deptNo="10"/>
 	<bean class="com.dk.demo.autowiring.Emp" name="emp1" autowire="constructor"/>
+	 -->
+	 
+	   <bean class="com.dk.demo.autowiring.Dept" name="dept1" p:deptName="CSE" p:deptNo="10"/>
+	   	   <bean class="com.dk.demo.autowiring.Dept" name="dept2" p:deptName="ISE" p:deptNo="20"/>
+	<bean class="com.dk.demo.autowiring.Emp" name="emp1"/>
 </beans>
 
