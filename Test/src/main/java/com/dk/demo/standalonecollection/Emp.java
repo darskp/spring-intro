@@ -14,7 +14,7 @@ public class Emp {
 	
 	@Override
 	public String toString() {
-		return "Emp [vehicle=" + vehicle + ", email=" + email + ", name=" + name + ", dbMap=" + dbMap + "]";
+		return "Emp [vehicle=" + vehicle + ", email=" + email + ", name=" + name + ", dbMap=" + dbProp + "]";
 	}
 
 
@@ -49,12 +49,12 @@ public class Emp {
 
 
 	public Properties getDbMap() {
-		return dbMap;
+		return dbProp;
 	}
 
 
 	public void setDbMap(Properties dbMap) {
-		this.dbMap = dbMap;
+		this.dbProp = dbMap;
 	}
 
 
@@ -68,7 +68,7 @@ public class Emp {
 		this.vehicle = vehicle;
 		this.email = email;
 		this.name = name;
-		this.dbMap = dbMap;
+		this.dbProp = dbMap;
 	}
 	
 	

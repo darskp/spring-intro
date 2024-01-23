@@ -13,6 +13,8 @@
     http://www.springframework.org/schema/util 
     http://www.springframework.org/schema/util/spring-util.xsd">
 
+
+<!--  
 	<util:list list-class="java.util.ArrayList" id="x">
 		<value>BMW</value>
 		<value>Audi</value>
@@ -40,7 +42,7 @@
 		<property name="dbProp" ref="i" />
 
 	</bean>
-
+-->
 
 </beans>
 
