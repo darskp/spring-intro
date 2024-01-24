@@ -9,6 +9,7 @@ public class App {
         ApplicationContext context= new ClassPathXmlApplicationContext("com/dk/demo/stereotypeannotation/newFile.xml");
         Ipl team1=context.getBean("ipl",Ipl.class);
         System.out.println(team1);
+        
 	}
 
 }
