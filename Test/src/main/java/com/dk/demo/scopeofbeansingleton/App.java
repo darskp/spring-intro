@@ -20,10 +20,17 @@ public class App {
 }
 
 //output
+//singleton
 //Vehicle [VehicleName=null, VehicleNo=null]
 //1786294176
 //============
 //Vehicle [VehicleName=null, VehicleNo=null]
 //1786294176
 
+//propotype
+//Vehicle [VehicleName=null, VehicleNo=null]
+//1430439149
+//============
+//Vehicle [VehicleName=null, VehicleNo=null]
+//359922172
 
