@@ -37,7 +37,4 @@ public class SpelExp {
 				+ staticVariable + ", stringObjectvalue=" + stringObjectvalue + ", stringListType=" + stringListType
 				+ "]";
 	} 
-	
-
-	
 }
